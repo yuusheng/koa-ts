@@ -1,16 +1,22 @@
 import Koa from 'koa'
 import KoaBody from 'koa-body'
-import Router from 'koa-router'
+import logger from 'koa-logger'
+import router from './routes'
 
 const app = new Koa()
-const router = new Router()
 
 app.use(KoaBody())
+app.use(logger())
 
-router.get('/', async (ctx) => {
-  ctx.body = { msg: 'hello koa-ts' }
+// logger
+app.use(async (ctx, next) => {
+  const start = Date.now()
+  await next()
+  const ms = Date.now() - start
+  console.log(`${ctx.method} ${ctx.url} - ${ms}ms`)
 })
 
+// router
 app.use(router.routes()).use(router.allowedMethods())
 
 const port = process.env.PORT || 3200

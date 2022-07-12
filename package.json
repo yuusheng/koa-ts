@@ -8,12 +8,14 @@
   },
   "keywords": [
     "koa",
+    "koa2",
     "typescript"
   ],
   "author": "yuusheng <contact@yuusheng.cn>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/koa": "^2.13.4",
+    "@types/koa-logger": "^3.1.2",
     "@types/koa-router": "^7.4.4",
     "nodemon": "^2.0.19",
     "tsx": "^3.7.1",
@@ -22,6 +24,9 @@
   "dependencies": {
     "koa": "^2.13.4",
     "koa-body": "^5.0.0",
-    "koa-router": "^11.0.1"
+    "koa-logger": "^3.2.1",
+    "koa-onerror": "^4.2.0",
+    "koa-router": "^11.0.1",
+    "koa-static": "^5.0.0"
   }
 }

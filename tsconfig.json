@@ -1,1 +1,11 @@
-{}
+{
+  "baseUrl": ".",
+  "module": "CommonJS",
+  "target": "esnext",
+  "strict": true,
+  "allowJs": true,
+  "sourceMap": true,
+  "outDir": "dist",
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
