@@ -1,4 +1,4 @@
-import type { KoaCtx } from '~/types'
+import type { KoaCtx } from '../types'
 class User {
   constructor() {}
 
