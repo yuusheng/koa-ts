@@ -23,6 +23,7 @@
     "@types/koa-logger": "^3.1.2",
     "@types/koa-router": "^7.4.4",
     "@types/koa-static": "^4.0.2",
+    "jest": "^28.1.2",
     "nodemon": "^2.0.19",
     "pm2": "^5.2.0",
     "tsx": "^3.7.1",
