@@ -1,5 +1,7 @@
 # Koa Typescript 初始化模板
 
+[English](https://github.com/yuusheng/koa-ts) | 简体中文
+
 ## 特性:
 - 💪 typescript 支持
 - ✌️ [koa-router](https://github.com/koajs/router)  [koa-logger](https://github.com/koajs/logger)
