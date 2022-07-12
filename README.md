@@ -1,5 +1,6 @@
 # Koa template with typescript
 
+English | [简体中文]()
 ## features:
 - 💪 typescript support
 - ✌️ [koa-router](https://github.com/koajs/router)  [koa-logger](https://github.com/koajs/logger)
