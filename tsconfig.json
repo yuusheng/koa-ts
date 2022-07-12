@@ -1,11 +1,18 @@
 {
-  "baseUrl": ".",
-  "module": "CommonJS",
-  "target": "esnext",
-  "strict": true,
-  "allowJs": true,
-  "sourceMap": true,
-  "outDir": "dist",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "target": "ES5",
+    "strict": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

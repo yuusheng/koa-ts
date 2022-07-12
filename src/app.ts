@@ -1,11 +1,24 @@
 import Koa from 'koa'
-import KoaBody from 'koa-body'
+import koaBody from 'koa-body'
 import logger from 'koa-logger'
+import koaStatic from 'koa-static'
 import router from './routes'
+import path from 'path'
 
 const app = new Koa()
 
-app.use(KoaBody())
+app
+  .use(
+    koaBody({
+      multipart: true, // 文件支持格式
+      formidable: {
+        // 不要使用相对路径
+        uploadDir: path.resolve(__dirname, '../public/uploads'), // 上传目录
+        keepExtensions: true, // 设置文件后缀名保留
+      },
+    })
+  )
+  .use(koaStatic(path.resolve(__dirname, '../public')))
 app.use(logger())
 
 // logger
