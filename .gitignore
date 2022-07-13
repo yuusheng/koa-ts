@@ -1,4 +1,4 @@
-secret.ts
+secret.*
 /node_modules
 /dist
 *.local

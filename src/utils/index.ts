@@ -1,1 +1,1 @@
-export * from './secret.exam'
+export * from './option'
