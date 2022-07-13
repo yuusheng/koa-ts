@@ -1,6 +1,6 @@
 {
-  "name": "koa-ts",
-  "version": "1.0.0",
+  "name": "koates",
+  "version": "0.1.0",
   "description": "koa initail template with typescript",
   "main": "src/app.ts",
   "scripts": {
