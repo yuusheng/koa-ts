@@ -1,7 +1,7 @@
 <h1 align='center'>Koa Typescript 初始化模板</h1>
 
 <p align='center'>
-<a herf="https://github.com/yuusheng/">English</a> | <b>简体中文</b>
+<a href="https://github.com/yuusheng/koa-ts">English</a> | <b>简体中文</b>
 </p>
 
 <br>
