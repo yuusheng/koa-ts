@@ -1,6 +1,12 @@
 import request from 'supertest'
 import app from '../src/app'
 
+afterAll((done) => {
+  app.removeAllListeners()
+
+  done()
+})
+
 test('hello world works', async () => {
   const response = await request(app.callback()).get('/api')
   expect(response.status).toBe(200)
