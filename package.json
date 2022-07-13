@@ -10,7 +10,7 @@
     "reload": "pm2 reload koa-ts",
     "delete": "pm2 delete koa-ts",
     "build": "rm -rf dist && tsc",
-    "test": "jest"
+    "test": "jest --forceExit"
   },
   "keywords": [
     "koa",
