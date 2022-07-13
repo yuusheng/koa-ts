@@ -6,7 +6,7 @@
 
 <br>
 
-## features:
+## 特性:
 
 - 💪 Typescript 支持
 - ✌️ 中间件：[koa-router](https://github.com/koajs/router) [koa-logger](https://github.com/koajs/logger)
