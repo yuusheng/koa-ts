@@ -1,9 +1,9 @@
-# Koa template with typescript
+# Koa template with Typescript
 
 English | [简体中文](https://github.com/yuusheng/koa-ts/blob/master/README.zh-CN.md)
 
 ## features:
-- 💪 typescript support
+- 💪 Typescript support
 - ✌️ [koa-router](https://github.com/koajs/router)  [koa-logger](https://github.com/koajs/logger)
 - 👂🏻 [jest](https://jestjs.io/) test framework
 - [pm2](https://pm2.keymetrics.io/) Node.js production process manager
