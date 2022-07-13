@@ -1,9 +1,8 @@
 import request from 'supertest'
-import app from '../src/app'
+import { server, app } from '../src/app'
 
 afterAll((done) => {
-  app.removeAllListeners()
-
+  server.close()
   done()
 })
 

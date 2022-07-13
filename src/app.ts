@@ -34,8 +34,8 @@ app.use(router.routes()).use(router.allowedMethods())
 
 const port = process.env.PORT || 3200
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log('server start on port http://localhost:' + port)
 })
 
-export default app
+export { server, app }
