@@ -1,10 +1,14 @@
-<h1 align='center'>Koa template with Typescript</h1>
+![](https://cdn.jsdelivr.net/gh/yuusheng/picgo/img/koates%20logo.png)
+
+<h5 align='center'>Koa template with Typescript</h5>
+
+<br />
 
 <p align='center'>
 <b>English</b> | <a  href="https://github.com/yuusheng/koa-ts/blob/master/README.zh-CN.md">简体中文</a>
 </p>
 
-<br>
+<br />
 
 ## Features:
 

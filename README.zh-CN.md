@@ -1,10 +1,14 @@
-<h1 align='center'>Koa Typescript 初始化模板</h1>
+![](https://cdn.jsdelivr.net/gh/yuusheng/picgo/img/koates%20logo.png)
+
+<h5 align='center'>Koa Typescript 初始化模板</h5>
+
+<br />
 
 <p align='center'>
 <a href="https://github.com/yuusheng/koa-ts">English</a> | <b>简体中文</b>
 </p>
 
-<br>
+<br />
 
 ## 特性:
 
