@@ -14,7 +14,7 @@
 
 - 💪 Typescript 支持
 - ✌️ 中间件：[koa-router](https://github.com/koajs/router) [koa-logger](https://github.com/koajs/logger)
-- 👂🏻 [jest](https://jestjs.io/) 测试框架
+- 👂🏻 [Vitest](https://cn.vitest.dev/) 测试框架
 - 🗂 [pm2](https://pm2.keymetrics.io/) Node.js 程序进程管理
 - ⚡️ [tsx](https://github.com/esbuild-kit/tsx) Node.js enhanced with esbuild to run TypeScript & ESM files
 

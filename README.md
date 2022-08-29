@@ -14,7 +14,7 @@
 
 - 💪 Typescript support
 - ✌️ [koa-router](https://github.com/koajs/router) [koa-logger](https://github.com/koajs/logger)
-- 👂🏻 [jest](https://jestjs.io/) test framework
+- 👂🏻 [Vitest](https://vitest.dev/) test framework
 - 🗂 [pm2](https://pm2.keymetrics.io/) Node.js production process manager
 - ⚡️ [tsx](https://github.com/esbuild-kit/tsx) Node.js enhanced with esbuild to run TypeScript & ESM files
 
