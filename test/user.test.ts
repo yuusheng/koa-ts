@@ -1,9 +1,9 @@
 import request from 'supertest'
 import { server, app } from '../src/app'
+import { test, expect, afterAll } from 'vitest'
 
-afterAll((done) => {
+afterAll(() => {
   server.close()
-  done()
 })
 
 test('hello world works', async () => {
