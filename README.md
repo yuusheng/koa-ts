@@ -17,6 +17,7 @@
 - 👂🏻 [Vitest](https://vitest.dev/) test framework
 - 🗂 [pm2](https://pm2.keymetrics.io/) Node.js production process manager
 - ⚡️ [tsx](https://github.com/esbuild-kit/tsx) Node.js enhanced with esbuild to run TypeScript & ESM files
+- 🆒 eslint
 
 ## Usage:
 

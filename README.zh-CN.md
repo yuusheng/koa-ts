@@ -17,6 +17,7 @@
 - 👂🏻 [Vitest](https://cn.vitest.dev/) 测试框架
 - 🗂 [pm2](https://pm2.keymetrics.io/) Node.js 程序进程管理
 - ⚡️ [tsx](https://github.com/esbuild-kit/tsx) Node.js enhanced with esbuild to run TypeScript & ESM files
+- 🆒 eslint
 
 ## 使用:
 

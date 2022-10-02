@@ -1,6 +1,6 @@
 import request from 'supertest'
-import { server, app } from '../src/app'
-import { test, expect, afterAll } from 'vitest'
+import { afterAll, expect, test } from 'vitest'
+import { app, server } from '../src/app'
 
 afterAll(() => {
   server.close()
