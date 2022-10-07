@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist",
-    "module": "CommonJS",
+    "module": "ESNext",
     "target": "ES5",
     "strict": true,
     "allowJs": true,

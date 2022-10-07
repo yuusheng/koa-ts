@@ -25,7 +25,7 @@
     "koa-body": "^5.0.0",
     "koa-logger": "^3.2.1",
     "koa-onerror": "^4.2.0",
-    "koa-router": "^11.0.1",
+    "koa-router": "12.0.0",
     "koa-static": "^5.0.0"
   },
   "devDependencies": {
@@ -41,7 +41,7 @@
     "supertest": "^6.2.4",
     "tsx": "^3.7.1",
     "typescript": "^4.7.4",
-    "vitest": "^0.22.1"
+    "vitest": "0.24.0"
   },
   "eslintConfig": {
     "extends": "@yuusheng"
