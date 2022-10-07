@@ -24,7 +24,7 @@
 use degit to have a cleaner git history version
 
 ```bash
-npx degit yuusheng/koa-ts my-koa-project
+npx degit yuusheng/koates my-koa-project
 cd my-koa-project
 pnpm i  #if you don't have pnpm you can run npm install pnpm -g first
 ```

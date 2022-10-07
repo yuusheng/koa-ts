@@ -24,7 +24,7 @@
 使用 degit 来获取一个无 git 的版本
 
 ```bash
-npx degit yuusheng/koa-ts my-koa-project
+npx degit yuusheng/koates my-koa-project
 cd my-koa-project
 pnpm i  #如果你没有pnpm，可以先运行 npm i pnpm -g
 ```
